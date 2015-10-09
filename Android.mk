@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter lt03lte,$(TARGET_DEVICE)),)
+ifneq ($(filter matisse,$(TARGET_DEVICE)),)
 
 #include $(CLEAR_VARS)
 #LOCAL_MODULE := libtime_genoff
