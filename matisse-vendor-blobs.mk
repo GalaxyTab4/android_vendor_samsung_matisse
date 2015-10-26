@@ -335,8 +335,8 @@ PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 
 # Sensors
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so 
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so 
 
 # NO BLOB
 #    $(LOCAL_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so
