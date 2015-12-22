@@ -15,7 +15,6 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
     TimeService
 
 #    com.qualcomm.location \
