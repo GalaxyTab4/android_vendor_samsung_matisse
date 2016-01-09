@@ -168,6 +168,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so.err
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so
 
 # GPS
 PRODUCT_COPY_FILES += \
