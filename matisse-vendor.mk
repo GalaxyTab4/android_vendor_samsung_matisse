@@ -18,7 +18,5 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     TimeService
 
-$(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/matisse/matisse-vendor-blobs.mk)
 
-# Dual-sim support
-$(call inherit-product, vendor/samsung/s3ve3g/s3ve3gds-vendor-blobs.mk)
